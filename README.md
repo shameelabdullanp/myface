@@ -1,4 +1,4 @@
-# facial-recognition-python-
+# realtime facial recognition in python
 Face detection and facial recognition along with recognized persons name from text
 
 General Languages and versions

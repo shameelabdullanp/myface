@@ -1,6 +1,15 @@
 import os
 import sys
-print("\033[1;31;40m	face recognition v1.5(beta) \n\033[1;37;40m") # green
+from pathlib import Path 
+
+#create dataset and trainer dir.
+if not os.path.exists('dataset'):
+    os.makedirs('dataset',)
+if not os.path.exists('trainer'):
+    os.makedirs('trainer')
+    
+
+print("\033[1;31;40m	face recognition v1.5.1 \n\033[1;37;40m") # green
 print("\033[5;31;40m	developed by Shameel Abdulla  \033[0;31;40m\n")# blink red
 print("\033[1;32;40m 1 For Add Face \n 2 For Traine faces \n 3 For Start Reco. \n 4 For Exit") # white
 #raw_input("	Press Enter to continue...")

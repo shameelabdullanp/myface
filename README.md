@@ -7,7 +7,7 @@ General Languages and versions
     opencv-contrib-python==3.4.15.55
     Pillow==8.3.2
 
-##How to install ? (Linux)
+## How to install ? (Linux)
 
 setting up  python environment 
 
